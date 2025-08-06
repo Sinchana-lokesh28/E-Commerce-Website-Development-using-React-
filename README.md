@@ -27,3 +27,9 @@ ecommerce-tests/
 ├── conftest.py
 ├── requirements.txt
 └── README.md
+
+## 🚀 How to Run Tests
+```bash
+pip install -r requirements.txt
+pytest --html=reports/report.html
+
